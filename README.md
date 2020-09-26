@@ -119,6 +119,15 @@ module.exports = {
   };
 ```
 
+
+# Upgrade Version of Typescript.  
+Note Current version of typescript with ionic 5 is version 2.6.  This will cause conflicts.  Recommend upgrading the typescript version in the package.json file
+
+```
+    "typescript": "2.6.2" //OLD
+
+    "typescript": "4.0.3" NEW
+```
 # Update package.json
 ```
 "test:unit": "jest --config=jest.config.js",
